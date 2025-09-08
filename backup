@@ -1,0 +1,1 @@
+0 2 * * * /home/deploy/rimkus-prod/deploy/rimkus_backup_restore.sh backup >> /home/deploy/rimkus-prod/backups/backup.log 2>&1
