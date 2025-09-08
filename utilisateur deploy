@@ -1,0 +1,6 @@
+sudo adduser deploy
+sudo usermod -aG sudo deploy
+mkdir -p /home/deploy/.ssh
+nano /home/deploy/.ssh/authorized_keys
+chmod 700 /home/deploy/.ssh
+chmod 600 /home/deploy/.ssh/authorized_keys
